@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="primary_light">#BB86FC</color>
+    <color name="accent">#03DAC6</color>
+
+    <!-- Градиенты -->
+    <color name="gradient_start">#6200EE</color>
+    <color name="gradient_end">#03DAC6</color>
+    <color name="gradient_start_purple">#8E2DE2</color>
+    <color name="gradient_end_purple">#4A00E0</color>
+
+    <!-- Фоны -->
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Текст -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Статусы -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Для зависимостей -->
+    <color name="smoking">#FF6B6B</color>
+    <color name="alcohol">#4ECDC4</color>
+    <color name="vaping">#45B7D1</color>
+    <color name="energy">#F9CA24</color>
+</resources>

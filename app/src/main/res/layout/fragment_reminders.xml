@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои напоминания"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvNoReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет активных напоминаний"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/listViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Совет: нажмите и удерживайте на напоминании, чтобы удалить его"
+        android:textSize="12sp"
+        android:textColor="@color/text_hint"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+</LinearLayout>
